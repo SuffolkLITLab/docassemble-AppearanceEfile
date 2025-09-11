@@ -176,7 +176,6 @@ code: |
 
   nav.set_section('review_IL_fee_waiver')
   if user_wants_fee_waiver:
-    fee_waiver_introduction_screen
     interview_order_IL_fee_waiver
 
   setup_esignature
