@@ -247,6 +247,8 @@ code: |
 
   stuff_to_snapshot['downloaded_forms'] = showifdef('forms_assembling')
 
+  stuff_to_snapshot['judge_or_jury'] = showifdef('trial_with')
+
   try:
     stuff_to_snapshot['efiled_forms'] = (showifdef('efile_resp.response_code') == 200)
   except:
